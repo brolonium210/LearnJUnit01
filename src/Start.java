@@ -22,8 +22,6 @@ public class Start {
         this.p = p;
         this.gp = new GraphicsPanel(width/2, height);
     }
-
-
     //def need to practice this little trick
     //this kinda didnt work but could be useful anyway
     public void setGp() {
@@ -55,26 +53,7 @@ public class Start {
             @Override
             public void keyReleased(KeyEvent e) {
                 Integer[] actualDir = playerD.get(e.getKeyChar());
-
-
-//                switch(e.getKeyChar()){
-//                    case 'a':{
-//                        setPlayerLoc(-1,0);
-//                    }
-//                    break;
-//                    case 'd':{
-//                        setPlayerLoc(1,0);
-//                    }
-//                    break;
-//                    case 'w':{
-//                        setPlayerLoc(0,-1);
-//                    }
-//                    break;
-//                    case 's':{
-//                        setPlayerLoc(0,1);
-//                    }
-//                    break;
-//                }
+                setPlayerLoc(actualDir[0],actualDir[1]);
             }
         });
 
@@ -104,10 +83,18 @@ public class Start {
     public void setPlayerLoc(int x,int y){
         int temp1 = p.getX();
         int temp2 = p.getY();
-        p.setX(temp1+x);
-        p.setY(temp2+y);
-        desert[temp1][temp2][0] = desert[temp1][temp2][1];
-        desert[p.getX()][p.getY()][0] = 'p';
+        if((temp1+x >= desert[0].length-8)||(temp1+x <= 8)){
+            p.setX(temp1);
+            p.setY(temp2);
+        }else if((temp2+y >= desert.length-8)||(temp2+y <= 8)){
+            p.setX(temp1);
+            p.setY(temp2);
+        }else {
+            p.setX(temp1 + x);
+            p.setY(temp2 + y);
+            desert[temp1][temp2][0] = desert[temp1][temp2][1];
+            desert[p.getX()][p.getY()][0] = 'p';
+        }
     }
 
     public void repaintFrame(){
@@ -128,22 +115,5 @@ public class Start {
         this.local = local;
         setGp();
     }
-
-
-    public void renderWorld(char[][][] local){
-
-        int gridSize = local.length;
-        for(int i = 0;i<gridSize;i++){
-            for(int j = 0;j<gridSize;j++){
-                int currX = i*50;
-                int currY = j*50;
-
-//                UI.fillRect(currX,currY,50,50);
-            }
-        }
-    }
-
-
-
 }
 

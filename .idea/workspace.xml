@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb349b8a-fdba-4cb4-b1bd-e4412264d930" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecs100.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnJUnit01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphicsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StartTest.java" afterDir="false" />
+    <list default="true" id="bb349b8a-fdba-4cb4-b1bd-e4412264d930" name="Changes" comment="this is the progress so far">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "brolonium210"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/brolonium210/LearnJUnit01.git",
+    "accountId": "c5a82e3b-2c0a-4811-b4c0-b4c424d88ab7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -97,7 +95,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.absolute">
+  <component name="RunManager">
     <configuration name="CalculatorTest.absolute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnJUnit01" />
       <option name="PACKAGE_NAME" value="" />
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.absolute" />
         <item itemvalue="JUnit.StartTest.test_desert" />
         <item itemvalue="JUnit.StartTest.test_local" />
         <item itemvalue="JUnit.StartTest.setupFrame" />
         <item itemvalue="JUnit.StartTest" />
-        <item itemvalue="JUnit.CalculatorTest.absolute" />
       </list>
     </recent_temporary>
   </component>
@@ -178,8 +176,17 @@
       <workItem from="1729813005834" duration="10042000" />
       <workItem from="1729831917122" duration="6140000" />
       <workItem from="1729905084035" duration="14513000" />
-      <workItem from="1730001108908" duration="417000" />
+      <workItem from="1730001108908" duration="1341000" />
     </task>
+    <task id="LOCAL-00001" summary="this is the progress so far">
+      <option name="closed" value="true" />
+      <created>1730001593244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730001593245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +208,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="this is the progress so far" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is the progress so far" />
   </component>
 </project>
